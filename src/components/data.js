@@ -1,6 +1,4 @@
-import React from "react"
-
-const Data = [
+const data = [
   {
     id: 1,
     name: { first: "Waylin", last: "Lumsdon" },
@@ -288,4 +286,4 @@ const Data = [
   }
 ];
 
-export default Data;
+export default data
