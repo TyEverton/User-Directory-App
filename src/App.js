@@ -2,7 +2,7 @@ import React from "react"
 // import './App.css';
 // import Data from "./user-directory/src/Data"
 import AddNew from "./components/AddNew"
-import ContactCard from "./components/ContactCard"
+import Contact from "./components/Contact"
 // import Footer from "./components/Footer"
 import Header from "./components/Header"
 import Next from "./components/Next"
@@ -19,7 +19,7 @@ function App() {
       <Previous />
       <Remove />
       <Edit />
-      <ContactCard />
+      <Contact />
     </div>
   )
 
