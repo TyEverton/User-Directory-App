@@ -1,13 +1,15 @@
 import React from "react"
-import ContactCard from "./ContactCard"
 import data from "./data"
 
-function Contact() {
-  const contactCards = data.map(data => <ContactCard key={data} name={data.name} city={data.city} country={data.country} />)
-
-  return(
+function Contact(props) {
+  return (
     <div>
-      {contactCards}
+      <h1>Name: {props.name}</h1>
+      <h1>City: {props.city}</h1>
+      <h1>Country: {props.country}</h1>
+      <h1>Employer: {props.employer}</h1>
+      <h1>Title: {props.title}</h1>
+      <h1>Favorite Movies: {props.favoriteMovies}</h1>
     </div>
   )
 }
